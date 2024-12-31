@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(194, 243, 193);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: justify;
+    font-weight: bold;
+}
+
+.basico {
+    color: aqua;
+}
+.intermediario {
+    color: blueviolet;
+    }
+.avançado {
+    color: brown;
+}
+
+.destaque {
+    color: gold;
+}
+
+#principal {
+    color: crimson;
+    text-align: center;
+}

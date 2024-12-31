@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: white;
+}
+header {
+    background-color: grey;
+    margin: 5px;
+    padding: 10px;
+}
+nav > a {
+    margin-right: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    margin: 0px;
+    padding: 5px;
+}
+
+h1 {
+    color: #f43f3f;
+}
+
+h2{ 
+    color: rgb(255, 0, 0);
+}
+
+section#Noticias {
+    background-color:grey;
+    color: white;
+}
+
+section#elenco {
+    background-color: grey;
+    
+}
+
