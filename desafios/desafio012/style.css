@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+:root {
+    --cor01: #343434;
+    --fonte-cabecalho: 'Passion One', cursive;
+    --fonte-prosa: Sriracha, cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+body {
+    background-color: black;
+}
+
+main {
+    color: black;
+    background-color: white ;
+    margin: 3px;
+    border-radius: 2px;
+    font-family: var(--fonte-prosa);
+    font-size: 20px;
+    box-shadow: 10px black;
+    
+
+    
+}
+
+header#container {
+    background-color: black;
+    height: 300px;
+    color: white;
+    text-align: center center;
+    position: relative;  
+}
+
+.cabecalho { 
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    text-wrap: nowrap;
+}
+
+.mudafonte {
+    font-family: var(--fonte-cabecalho);
+    font-size: 60px;
+}
+
+.cabecalho span {
+    font-family: var(--fonte-cabecalho);
+}
+
+.cabecalho h2 {
+    text-align: center;
+    font-size: 15px;
+}
+
+div.fundo1 {
+    background-image: url(imagens/background001.jpg);
+    background-size: 100%;
+    padding: 100px 0px 100px 20px;
+    background-attachment: fixed;
+    box-shadow: 0px 0px 5px black;
+
+}
+
+.poesia1 {
+    background-color: rgb(0, 0, 0);
+    width: max-content;
+    color: white;
+}
+
+.poesia {
+    padding: 100px 0px 100px 20px;
+}
