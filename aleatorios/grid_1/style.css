@@ -1,0 +1,42 @@
+.container {
+    background-color: lightblue;
+    display: grid;
+    grid-template-areas:
+    'header header'
+    'aside article'
+    'section section'
+    'footer footer' 
+    ;
+    gap: 30px;
+}
+
+header {
+    grid-area: header;
+    background-color: violet;
+}
+
+aside {
+    grid-area: aside;
+    background-color: aqua;
+    
+}
+
+article {
+    grid-area: article;
+    background-color: aquamarine;
+}
+
+footer {
+    grid-area: footer;
+    background-color: brown;
+}
+
+.item {
+    height: 200px;
+    width: 600px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
